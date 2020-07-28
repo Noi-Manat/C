@@ -15,7 +15,7 @@ void gotoxy(short x, short y)
 
 main()
 {
-    int length,max,min,i,k,m;
+    int length,max,min,i,j,k;
 
     printf("Input Number : ");
 
@@ -39,7 +39,7 @@ main()
             printf("Point\t");
         }
 
-        for(int j =0; j<arr[i]; j++)
+        for( j =0; j<arr[i]; j++)
         {
             printf("*");
         }
