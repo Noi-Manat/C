@@ -69,7 +69,7 @@ main()
     }
 
     if(min<10){
-        printf("\n\nMax Person = = > Person0%d \nMin Person = = > Person0%d\n",max,min);
+        printf("\n\nMax Person = = > Person%d \nMin Person = = > Person0%d\n",max,min);
     }
     else if(max>=10){
         printf("\n\nMax Person = = > Person%d \nMin Person = = > Person0%d\n",max,min);
