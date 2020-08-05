@@ -22,7 +22,7 @@ main()
     scanf("%d",&length);
 
     int arr[length];
-
+    //loop input จำนวน n
     for(i = 0; i<length; i++)
     {
 
@@ -33,6 +33,7 @@ main()
             printf("Person%d : ",i);*/
 
         scanf("%d",&arr[i]);
+        // loop print "Point"
         for( k=-1; k<i; k++)
         {
             gotoxy(15,k+3);
@@ -49,7 +50,7 @@ main()
 
     max = arr[0];
 
-
+    //loop check min max
     for(i = 0; i<length; i++)
     {
 
