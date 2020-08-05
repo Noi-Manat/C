@@ -18,11 +18,11 @@ main()
     int length,max,min,i,j,k;
 
     printf("Input Number : ");
-
+    //รับ input จำนวน n
     scanf("%d",&length);
 
     int arr[length];
-    //loop input จำนวน n
+    //loop รับจำนวน Person
     for(i = 0; i<length; i++)
     {
 
