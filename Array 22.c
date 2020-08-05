@@ -33,7 +33,7 @@ main()
             printf("Person%d : ",i);*/
 
         scanf("%d",&arr[i]);
-        // loop print "Point"
+        // loop print "Point" กับ print"*" ตามจำนวน input
         for( k=-1; k<i; k++)
         {
             gotoxy(15,k+3);
