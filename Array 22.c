@@ -48,35 +48,22 @@ main()
     }
 
 
-    max = arr[0];
-
-    //loop check min max
+   max = arr[0];
+    min = arr[0];
+    //loop chek min max
     for(i = 0; i<length; i++)
     {
-
         if(min > arr[i])
         {
             min = arr[i];
-
         }
-
         else if(max < arr[i])
         {
             max = arr[i];
-
         }
 
-
     }
-
-    if(min<10){
-        printf("\n\nMax Person = = > Person%d \nMin Person = = > Person0%d\n",max,min);
-    }
-    else if(max>=10){
-        printf("\n\nMax Person = = > Person%d \nMin Person = = > Person0%d\n",max,min);
-    }
-
+        printf("\n\nMax Person = = > Person%0.2d \nMin Person = = > Person%0.2d\n",max,min);
     return 0;
-
 
 }
